@@ -1,0 +1,22 @@
+cloner: 
+git clone https://github.com/mohammed-yassine-dabboussi/git-begins
+
+pusher:
+git add commands-git  
+git commit ["mise à jour du fichier"]
+git push
+
+puller:
+git pull origin main 
+
+créer une branche:
+git branch add-create-branch-command
+
+switcher de branche:
+git checkout add-create-branch-command
+ou
+git switch add-create-branch-command
+
+git branch: 
+pour vérifier sur quelle branche on est
+
