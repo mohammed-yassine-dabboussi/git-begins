@@ -1,22 +1,33 @@
-cloner: 
-git clone https://github.com/mohammed-yassine-dabboussi/git-begins
+*cloner: 
+ git clone https://github.com/mohammed-yassine-dabboussi/git-begins
 
-pusher:
-git add commands-git  
-git commit ["mise à jour du fichier"]
-git push
+*pusher:
+ git add nom_du_fichier ou add --all 
+ git commit -m ["commentaire sur le commit"]
+ git push
 
-puller:
-git pull origin main 
+*puller:
+ git pull origin main 
 
-créer une branche:
-git branch add-create-branch-command
+*créer une branche:
+ git branch add-create-branch-command
 
-switcher de branche:
-git checkout add-create-branch-command
-ou
-git switch add-create-branch-command
+*switcher de branche:
+ git checkout add-create-branch-command
+ ou
+ git switch add-create-branch-command
 
-git branch: 
-pour vérifier sur quelle branche on est
+*git branch: 
+ pour vérifier sur quelle branche on est
 
+*git merge nom_de_la_branche
+la commande merge sert à fusionner des branches 
+
+*pour supprimer un fichier 
+ git rm nom_du_fichier
+
+*Pour récupérer un fichier supprimé
+ il faut recuper la dernière version 
+ git log : commande qui liste tout les commits 
+ on récupere l'id du commit 
+ git revert "id"
