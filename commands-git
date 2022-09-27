@@ -1,13 +1,1 @@
-les commandes git qui permettent de cloner, pusher et puller 
-
-cloner: 
-git clone "url"
-
-pusher:
-git add commands-git  
-git commit []
-git push
-
-puller:
-git pull origin main 
-git pull origin "branch"
+test
