@@ -1,0 +1,9 @@
+les commandes git qui permettent de cloner et pusher
+
+cloner: 
+git clone "url"
+
+pusher:
+git add  
+git commit []
+git push
